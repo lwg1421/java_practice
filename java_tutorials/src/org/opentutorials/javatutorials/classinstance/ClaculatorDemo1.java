@@ -23,13 +23,13 @@ class Calculator{
 	// sum 메소드 생성
 	// left,right의 합 출력
 	public void sum() {
-		System.out.println("sum : "+this.left+this.right);
+		System.out.println(this.left+this.right);
 	}
 	
 	// avg 메소드 생성
 	// left. right의 평균 출력
 	public void avg() {
-		System.out.println("avg : "+(this.left+this.right)/2);
+		System.out.println((this.left+this.right)/2);
 	}
 }
 public class ClaculatorDemo1 {
@@ -41,6 +41,7 @@ public class ClaculatorDemo1 {
 		Calculator c1 = new Calculator();
 		c1.setOprands(2,2);
 		System.out.println(c1.PI);
+		c1.sum();
 		
 		Calculator c2 = new Calculator();
 		System.out.println(c2.PI);
