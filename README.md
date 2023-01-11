@@ -1,4 +1,6 @@
 # java_practice
+- 소스코드 폴더
+  - java_practice/java_tutorials/src/org/opentutorials/javatutorials
 
 ### 자바 기초 문법 학습 내용
 
