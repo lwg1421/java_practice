@@ -30,7 +30,7 @@
 ### .equals
 - .equals는 문자열을 비교할 때 사용하는 메소드
 ```
-String a = "Hello world";
+        String a = "Hello world";
         String b = new String("Hello world");
         // 문자열을 비교할 때에는 ==의 사용은 지양하자
         System.out.println(a == b);
