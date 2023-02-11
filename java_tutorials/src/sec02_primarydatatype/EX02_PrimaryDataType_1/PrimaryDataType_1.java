@@ -27,6 +27,14 @@ public class PrimaryDataType_1 {
 		System.out.println(value6);
 		System.out.println(value7);  // 실수값으로 출력
 
+		
+		// 문자로 저장한느 방법
+		char char1 = 'A';
+		char char2 = '가';
+		char char3 = '3'; // 숫자 3이 아닌 문자 3을 의미함
+		System.out.println(char1);
+		System.out.println(char2);
+		System.out.println(char3);
 	}
 
 }
