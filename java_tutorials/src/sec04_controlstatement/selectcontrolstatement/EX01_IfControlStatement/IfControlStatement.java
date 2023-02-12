@@ -36,6 +36,7 @@ public class IfControlStatement {
 		} else {
 			System.out.println("D학점");
 		}
+		
 	}
 
 }
