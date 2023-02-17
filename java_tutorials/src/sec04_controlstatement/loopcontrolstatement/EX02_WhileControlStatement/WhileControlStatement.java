@@ -47,5 +47,7 @@ public class WhileControlStatement {
         	System.out.print(c+ " ");
         	c++;
         }
+
     }	
+
 }
