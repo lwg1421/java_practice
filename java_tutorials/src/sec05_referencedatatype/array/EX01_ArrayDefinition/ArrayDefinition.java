@@ -1,6 +1,7 @@
 package sec05_referencedatatype.array.EX01_ArrayDefinition;
 
 import java.util.Arrays;
+import java.util.Scanner;
 
 public class ArrayDefinition {
 
@@ -25,6 +26,11 @@ public class ArrayDefinition {
 			System.out.println(args[i]);
 		}
 		System.out.println(args[0]);
+		
+		Scanner sc = new Scanner(System.in);
+		String myname = sc.nextLine();
+		System.out.println(myname);
 	}
+		
 
 }
