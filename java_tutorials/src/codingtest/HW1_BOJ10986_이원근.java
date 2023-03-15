@@ -14,7 +14,7 @@ public class HW1_BOJ10986_이원근 {
 		int m = Integer.parseInt(st.nextToken()); // 나누는 수 M
 		long sum = 0;  //합 초기화
 		long number[] = new long[m]; //개수를 셀 배열 생성
-		long count = 0;
+		long count = 0;	//결과값 초기화
 		
 		st = new StringTokenizer(br.readLine());
 		for(int i = 1; i < n+1; i++) {
