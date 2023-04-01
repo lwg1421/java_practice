@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 public class BOJ11660_구간합구하기5 {
 
-	static int N;	//표의 크기
+	static int N;	//표크기
 	static int M;	//합을 구해야 하는 횟수
 	static int[][] arr;	//일반 배열
 	static int[][] sumArr;	//합배열
